@@ -1,0 +1,9 @@
+.box{
+    width: 80px;
+    height: 80px;
+    /* background-color: red; */
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+}
