@@ -70,7 +70,7 @@ function App() {
               <Box color={color} handleClicks={handleClick} key={color} />
             ))}
           </div>
-          <button onClick={handleNewGame} className="new-game-button">New Game</button>
+          <button onClick={handleNewGame} className="new-game-button" data-testid="newGameButton">New Game</button>
         </div>
       </div>
     </>
