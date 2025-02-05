@@ -34,7 +34,7 @@ function App() {
   }
 
   function handleNewGame() {
-    setScore(1);
+    setScore(0);
     setResult("");
     const newShuffledColors = getRandomColorData();
     setShuffledColors(newShuffledColors);
