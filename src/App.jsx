@@ -7,7 +7,7 @@ import shuffle from "./utils/utils";
 import Toast from "./components/toast/toast";
 
 function App() {
-  const [score, setScore] = useState(1);
+  const [score, setScore] = useState(0);
   const [result, setResult] = useState("");
   const [shuffledColors, setShuffledColors] = useState(getRandomColorData());
   const [mainColor, setMainColor] = useState(
